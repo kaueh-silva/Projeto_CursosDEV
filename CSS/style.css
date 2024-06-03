@@ -1,0 +1,94 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Monterrat', sans-serif;
+}
+
+p,
+a {
+    font-size: 1.6rem;
+}
+
+nav a {
+    color: inherit;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+/*Estilo dos Container*/
+
+.wrapperContainer-dark {
+    background-color: #2A2A2A;
+    color: #fafafa;
+}
+
+.wrapperContainer-light {
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+/*Fim estilo container*/
+
+/*Estilo Nav*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a {
+    padding: 0.75em 1.15rem;
+    border: solid 1px;
+    text-decoration: none;
+
+
+}
+
+.header_nav a:hover {
+    background-color: var(--primary-color, );
+    color: black;
+    border: none;
+    transition: 1.2s;
+    box-shadow: 0px 1px 10px 5px #947c13;
+    border-radius: 10px;
+
+
+
+}
+
+.header_nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+}
