@@ -10,6 +10,12 @@
     --primary-color: #FED001;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     font-weight: 400;
@@ -70,6 +76,7 @@ nav a {
     padding: 0.75em 1.15rem;
     border: solid 1px;
     text-decoration: none;
+    transition: 1.2s;
 
 
 }
@@ -78,7 +85,7 @@ nav a {
     background-color: var(--primary-color, );
     color: black;
     border: none;
-    transition: 1.2s;
+
     box-shadow: 0px 1px 10px 5px #947c13;
     border-radius: 10px;
 
@@ -91,4 +98,50 @@ nav a {
     gap: 1rem;
     list-style: none;
 
+}
+
+/*Fim Nav*/
+
+.wrapperContainer-hero {
+    background-image: linear-gradient(transparent, rgb(247, 247, 105), var(--primary-color));
+}
+
+/*Estilo herobanner*/
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    margin-bottom: 5rem;
+}
+
+.header_content .btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 10rem;
+    font-family: 'Mukta', sans-serif;
+    box-shadow: 0px 1px 20px 1px rgb(39, 38, 38);
+    color: black;
+    display: inline-block;
+    transition: 1.2s;
+    font-weight: 500;
+
+
+
+}
+
+.header_content .btn:hover {
+
+    background-color: black;
+    color: var(--primary-color);
+    box-shadow: 0px 0px 0px 0px;
+    scale: 1.2;
+    border-radius: 80px;
 }
