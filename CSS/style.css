@@ -222,3 +222,18 @@ h1 {
     scale: 1.2;
     border-radius: 81px;
 }
+
+.escola {
+    display: flex;
+    gap: 6rem;
+}
+
+.escola_tittle {
+    font-size: 3.2rem;
+    margin-top: 6rem;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
